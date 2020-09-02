@@ -1,6 +1,7 @@
 # nesdis-goes.js
-100% browser-based imagery scraping + GIF compilation.
-Uses a similar method as my Python version aside from time window.
+100% browser-based imagery scraping + GIF compilation of recent satellite imagery via star.nesdis.noaa.gov.
+Derived from the [Python implementation](https://github.com/aerobotpro/nesdis-goes).
+This library accepts the same query as the Python version, aside from timeframe.
 
 ```javascript
 <html>
