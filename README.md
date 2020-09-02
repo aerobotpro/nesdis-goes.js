@@ -10,7 +10,7 @@ This library accepts the same query as the Python version, aside from timeframe.
 getImagery("virginia state", "band-1 ir", "250", function(parsedLines)
 {
     setImagery(parsedLines, function(GIF_URL){
-        console.log(GIF_URL);
+        console.log(`Here's your GIF: ${GIF_URL}`);
     });
 });
 </script>
